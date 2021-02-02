@@ -31,11 +31,6 @@
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
-  }
 }
 @Component
 export default class HelloWorld extends Vue {
