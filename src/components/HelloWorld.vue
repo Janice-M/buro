@@ -37,6 +37,20 @@ export default {
     msg: String
   }
 }
+@Component
+export default class HelloWorld extends Vue {
+  private msg: string = "welcome to my app"
+  private list: Array<object> = [
+    {
+      name: 'Preetish',
+      age: '26'
+    },
+    {
+      name: 'John',
+      age: '30'
+    }
+  ]
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
