@@ -31,7 +31,7 @@
 </template>
 
 <script>
-}
+
 @Component
 export default class HelloWorld extends Vue {
   private msg: string = "welcome to my app"
